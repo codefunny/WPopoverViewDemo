@@ -74,9 +74,9 @@
 		50E12E501C60DF5E002909CE = {
 			isa = PBXGroup;
 			children = (
+				50E12E5A1C60DF5E002909CE /* Products */,
 				50E12E5B1C60DF5E002909CE /* WPopoverViewDemo */,
 				50E12E751C60DF5E002909CE /* WPopoverViewDemoTests */,
-				50E12E5A1C60DF5E002909CE /* Products */,
 			);
 			sourceTree = "<group>";
 		};
@@ -92,18 +92,18 @@
 		50E12E5B1C60DF5E002909CE /* WPopoverViewDemo */ = {
 			isa = PBXGroup;
 			children = (
+				50E12E5C1C60DF5E002909CE /* Supporting Files */,
 				50E12E841C60E9BC002909CE /* WPopoverView */,
 				50E12E5F1C60DF5E002909CE /* AppDelegate.h */,
 				50E12E601C60DF5E002909CE /* AppDelegate.m */,
-				50E12E621C60DF5E002909CE /* ViewController.h */,
-				50E12E631C60DF5E002909CE /* ViewController.m */,
+				50E12E681C60DF5E002909CE /* Assets.xcassets */,
+				50E12E6D1C60DF5E002909CE /* Info.plist */,
+				50E12E6A1C60DF5E002909CE /* LaunchScreen.storyboard */,
+				50E12E651C60DF5E002909CE /* Main.storyboard */,
 				50E12E811C60E734002909CE /* PopoverViewController.h */,
 				50E12E821C60E734002909CE /* PopoverViewController.m */,
-				50E12E651C60DF5E002909CE /* Main.storyboard */,
-				50E12E681C60DF5E002909CE /* Assets.xcassets */,
-				50E12E6A1C60DF5E002909CE /* LaunchScreen.storyboard */,
-				50E12E6D1C60DF5E002909CE /* Info.plist */,
-				50E12E5C1C60DF5E002909CE /* Supporting Files */,
+				50E12E621C60DF5E002909CE /* ViewController.h */,
+				50E12E631C60DF5E002909CE /* ViewController.m */,
 			);
 			path = WPopoverViewDemo;
 			sourceTree = "<group>";
@@ -114,14 +114,14 @@
 				50DDE9681C639D88006D4150 /* follow_icon@2x.png */,
 				50E12E5D1C60DF5E002909CE /* main.m */,
 			);
-			name = "Supporting Files";
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		50E12E751C60DF5E002909CE /* WPopoverViewDemoTests */ = {
 			isa = PBXGroup;
 			children = (
-				50E12E761C60DF5E002909CE /* WPopoverViewDemoTests.m */,
 				50E12E781C60DF5E002909CE /* Info.plist */,
+				50E12E761C60DF5E002909CE /* WPopoverViewDemoTests.m */,
 			);
 			path = WPopoverViewDemoTests;
 			sourceTree = "<group>";
@@ -134,7 +134,7 @@
 				50E12E881C619C5C002909CE /* WTablePopView.h */,
 				50E12E891C619C5C002909CE /* WTablePopView.m */,
 			);
-			name = WPopoverView;
+			path = WPopoverView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -272,6 +272,7 @@
 				50E12E661C60DF5E002909CE /* Base */,
 			);
 			name = Main.storyboard;
+			path = .;
 			sourceTree = "<group>";
 		};
 		50E12E6A1C60DF5E002909CE /* LaunchScreen.storyboard */ = {
@@ -280,6 +281,7 @@
 				50E12E6B1C60DF5E002909CE /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = .;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
